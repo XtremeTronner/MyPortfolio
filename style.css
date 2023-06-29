@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    background-color: #2A2C34;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html 
+{
+    scroll-behavior: smooth;
+}
+section {
+    padding: 100px 0;
+}
+.about,
+.services,
+.contact,
+footer{
+    font-family: 'Poppins', sans-serif;
+}
+.about,
+.services .serv-content,
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    color: aliceblue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/*---Navbar---*/
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+li{
+    padding: 5px;
+}
+.logo span{
+    color: #D4E04D;
+}
+.nav-item .nav-link{
+    font-size: 18px;
+    border: 1px solid transparent;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-item .nav-link:hover{
+    color: #D4E04D;
+    border-bottom: 2px solid #D4E04D;
+    transition: .1s;
+}
+svg{
+    color: #fff;
+}
+
+/* --Home-- */
+.row {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+section {
+    padding: 100px 0;
+}
+.home{
+    display: flex;
+    background-color: #2A2C34;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max_width {
+    margin: auto 0 auto 40px;
+}
+.home .txt1 {
+    font-size: 27px;
+}
+.home .txt2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .txt3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .txt3 span {
+    color: #D4E04D;
+    font-weight: 500;
+}
+
+/* --about-- */
+.about .title {
+    color: #fff;
+    text-align: center;
+}
+#about img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 5px;
+}
+h1 span{
+    color: #D4E04D;
+    padding-bottom: 20px;
+}
+#abt-head{
+    font-size: 35px;
+}
+
+.services .serv-title{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;;
+    text-align: center;
+}
+.services div{
+    color: #D4E04D;
+}
+.services div p{
+    color: #fff;
+}
+.services a{
+    color: #fff;
+    text-decoration: none;
+}
+.services a:hover {
+    color: #D4E04D;
+    text-decoration: none;
+}
+
+/*--contact--*/
+.contact .contact-content{
+    padding: 20px;
+}
+.contact .contact-content .column {
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+    padding: 20px;
+}
+.contact .contact-content .row .info {
+    margin-left: 30px;
+}
+
+.contact .contact-content .info .head {
+    font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title {
+    color: #D4E04D;
+}
+
+.contact .right form .fields {
+    display: flex;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .right form .textarea {
+    height: 80px;
+    width: 100%;
+}
+
+.contact .right form .name {
+    margin-right: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #D4E04D;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus {
+    border-color: #D4E04D;
+}
+
+.contact .right form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.contact .right form .button-area {
+    display: flex;
+    align-items: center;
+}
+
+.right form .button-area button {
+    color: #2A2C34;
+    display: block;
+    width: 160px !important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: #D4E04D;
+    border: 2px solid #D4E04D;
+    transition: all 0.3s ease;
+}
+
+.right form .button-area button:hover {
+    color: #D4E04D;
+    background: none;
+}
+
+footer p{
+    padding: 15px;
+    background-color: black;
+    text-align: center;
+    font-style: normal;
+    color: #fff;
+    margin-bottom: auto;
+}
